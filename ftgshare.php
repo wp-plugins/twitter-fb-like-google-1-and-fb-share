@@ -7,7 +7,7 @@ Version: 1.0
 Description: Most simple social share icons. 99% of your any blog post is share by these Social share icons.
 Requires at least: 3.0
 Tested up to: 3.2.1
-Stable tag: 1.1
+Stable tag: 1.0
 */
 
 function disp_social($content) {
@@ -183,8 +183,8 @@ function social4ioptions(){
 <h3>Test Buttons</h3>
 <?php disp_social_on_optionpage(); ?>
 
- /* plong is too high
-  */
+
+
 <h3 style="color: #6079AB;">Select Icons to display</h3>
 <p><input type="checkbox" name="s4_twitter" id="s4-twitter" value="true"<?php if (get_option( 's4_twitter', true ) == true) echo ' checked'; ?>> Display Twitter&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;via @<input type="text" name="s4twtvia" style="width: 150px;" value="<?php echo get_option('s4twtvia',''); ?>" /></p>
 <p><input type="checkbox" name="s4_fblike" id="s4-fblike" value="true"<?php if (get_option( 's4_fblike', true ) == true) echo ' checked'; ?>> Display Facebook Like&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="s4_fbsend" id="s4-fbsend" value="true"<?php if (get_option( 's4_fbsend', false ) == true) echo ' checked'; ?>> Display Facebook Send </p>
