@@ -3,7 +3,7 @@ Contributors: Milos Lony
 Tags: Simple social share, social share, Facebook, Like, google, google +1, google plusone, twitter, tweet, facebook share, plusone
 Requires at least: 3.0
 Tested up to: 3.2.1
-Stable tag: 1.0
+Stable tag: 1.1
 
 A very simple social share plugin with just 4 social icons (Twitter, FB Like, Google +1 and FB Share) 
 
