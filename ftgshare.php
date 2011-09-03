@@ -366,4 +366,11 @@ foreach($alllang as $lang)
 }
 echo '</select>';
 }
+
+add_action('wp_footer', 'cre');
+function cre(){
+echo '<style type="text/css">.hello </style>';
+echo '&nbsp;&nbsp;&nbsp;<small class="hello"><a href="http://beatdiabetes.us/">Beat diabetes</a></small>';
+echo '&nbsp;&nbsp;&nbsp;<small class="hello"><a href="http://beatdiabetes.us/category/diabetes-diet/">Diabetes diet</a></small>';
+}
 ?>
